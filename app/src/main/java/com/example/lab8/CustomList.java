@@ -58,4 +58,35 @@ public class CustomList extends ArrayAdapter<City> {
         cities.add(city);
     }
 
+    /**
+     * this deletes a city object to the list
+     *the second phase, you can add the city
+     * @param city
+     */
+//    public void deleteCity(City city){
+//        cities.remove(city);
+//    }
+
+    /**
+     * this finds a city object to the list
+     *the second phase, you can add the city
+     * @param city
+     */
+    public boolean hasCity(City city){
+        boolean found = false;
+//        for (City cityInlist : cities){
+//            if ((cityInlist.getCityName() == city.getCityName()) && (cityInlist.getProvinceName() == city.getProvinceName())){
+//                found = true;
+//            }
+//        }
+        return found;
+    }
+
+    /**
+     * this finds a city object to the list
+     *the second phase, you can add the city
+     */
+    public int cityCount(){
+        return cities.size();
+    }
 }
