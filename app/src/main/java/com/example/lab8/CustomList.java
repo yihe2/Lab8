@@ -74,11 +74,11 @@ public class CustomList extends ArrayAdapter<City> {
      */
     public boolean hasCity(City city){
         boolean found = false;
-//        for (City cityInlist : cities){
-//            if ((cityInlist.getCityName() == city.getCityName()) && (cityInlist.getProvinceName() == city.getProvinceName())){
-//                found = true;
-//            }
-//        }
+        for (City cityInlist : cities){
+            if ((cityInlist.getCityName() == city.getCityName()) && (cityInlist.getProvinceName() == city.getProvinceName())){
+                found = true;
+            }
+        }
         return found;
     }
 
