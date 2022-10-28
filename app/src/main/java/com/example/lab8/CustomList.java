@@ -86,7 +86,9 @@ public class CustomList extends ArrayAdapter<City> {
      * this finds a city object to the list
      *the second phase, you can add the city
      */
-    public int cityCount(){
-        return cities.size();
+    public int countCities(){
+        int size = 0;
+//        size = cities.size();
+        return size;
     }
 }
