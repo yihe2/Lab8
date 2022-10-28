@@ -63,9 +63,9 @@ public class CustomList extends ArrayAdapter<City> {
      *the second phase, you can add the city
      * @param city
      */
-//    public void deleteCity(City city){
+    public void deleteCity(City city){
 //        cities.remove(city);
-//    }
+    }
 
     /**
      * this finds a city object to the list
